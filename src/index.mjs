@@ -32,4 +32,10 @@
 // const message2 = `私の名前は${name} です。年齢は${age}です。`;
 // console.log(message2);
 
-// 
+// アロー関数
+// const func2 = (str) => str;
+// console.log(func2("func2 to moushimasu"));
+
+// const func3 = (num1, num2) => num1 + num2;
+
+// console.log(func3(1, 2));
