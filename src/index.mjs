@@ -64,3 +64,27 @@
 // const [namae, age] = myProfile;
 // const message4 = `名前は${namae}です.年齢は${age}です。`;
 // console.log(message4);
+
+/**
+ * スプレッド構文
+ */
+//配列の展開
+// const arr1 = [1, 2];
+// console.log(arr1);
+// console.log(...arr1);
+
+// const sumFunc = (num1, num2) => console.log(num1 + num2);
+// sumFunc(...arr1);
+
+// まとめるとき
+// const arr2 = [1, 2, 3, 4, 5];
+// const [num1, num2, ...arr3] = arr2;
+// console.log(arr3);
+
+// 配列のコピー・結合
+// const arr3 = [1, 2, 3, 4, 5];
+// const arr5 = [10, 20];
+// const arr4 = [...arr3];
+
+// const arr6 = [...arr4, ...arr5];
+// console.log(arr6);
