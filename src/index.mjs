@@ -1,7 +1,5 @@
 import "./styles.css";
 
-console.log('aaaaaaaaa')
-
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
 <div>
@@ -9,4 +7,5 @@ document.getElementById("app").innerHTML = `
   info about Parcel 
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
+<div>大きな問題が判明したのよ</div>
 `;
