@@ -88,3 +88,14 @@
 
 // const arr6 = [...arr4, ...arr5];
 // console.log(arr6);
+
+/**
+ * map や filter
+ */
+// const nameArr = ["田中", "山田", "IQ5000"];
+
+// const newNameArr = nameArr.map((name) => {
+//   return name === "IQ5000" ? name : name + "さん";
+// });
+
+// console.log(newNameArr);
